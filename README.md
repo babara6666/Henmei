@@ -151,13 +151,6 @@ Objects in architectural drawings (such as rows of toilets, sinks) are typically
 - Retain all independent objects even if they are very close
 - Test results: Counting accuracy improved from 70% to 98%+
 
-### Comparison
-
-| Parameters | Detected | Actual | Accuracy |
-|------------|----------|--------|----------|
-| NMS IoU=0.5 | 15 | 28 | 54% ❌ |
-| NMS IoU=0.85 | 27 | 28 | 96% ✅ |
-
 ## 📈 Training Tips
 
 ### Architecture-Specific Augmentation
@@ -222,18 +215,18 @@ IMG_SIZE = 1024  # From 1280 to 1024
 
 ## 📝 Version History
 
-### v1.2 (2024-11-16)
+### v1.2 (2025-11-16)
 - ✅ Fixed NMS IoU parameter (0.5 → 0.85) to resolve dense object issue
 - ✅ Added detailed detection statistics output
 - ✅ Improved coordinate validity verification
 - ✅ Optimized visualization label display
 
-### v1.1 (2024-11-15)
+### v1.1 (2025-11-15)
 - ✅ Fixed DPI setting (300 → 600)
 - ✅ Converted to Windows path format
 - ✅ Added Poppler installation instructions
 
-### v1.0 (2024-11-15)
+### v1.0 (2025-11-15)
 - ✅ Initial release
 
 ## 🤝 Contributing
@@ -250,12 +243,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Roboflow](https://roboflow.com/)
 - [OpenCV](https://opencv.org/)
 
-## 📧 Contact
-
-**Project**: Henmei Architectural Drawing Object Detection System  
-**Author**: Stanley  
-**Version**: v1.2  
-**Last Updated**: 2024-11-16
 
 ---
 
